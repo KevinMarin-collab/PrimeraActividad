@@ -84,7 +84,7 @@ class primerpunto {
         System.out.println("CO2PorKm = " + CO2PorKm);
 
         /* Punto 6 */
-        double vmsprom = vprom * (1000) / (3600);
+        double vmsprom = vprom * ((1000) / (3600));
         double galTot = (l1 + l2 + l3) * galPorLitro;
         double vnorm = (vprom - vmin) / (vmax - vmin);
         System.out.println("vmsprom = " + vmsprom);
